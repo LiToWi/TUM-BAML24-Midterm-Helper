@@ -403,12 +403,12 @@ class DatasetHelper:
         print("Test-Accuracy:", conf_matrix.accuracy)
         print("Test-Recall:", conf_matrix.recall)
 
+def convert_pd_to_csv(dataset):
+    dataset.to_csv('convert.csv', index=False)
+
 
 if __name__ == '__main__':
-    ecom = DatasetHelper("e-commerce-dataset.xlsx", is_csv=False, sheet_name='E_Comm')
-    ecom.change_type('Churn', 'category')
-
-    ecom.random_forest('Churn', n_estimators=1000, max_features=3, random_state=0, print_result=True)
+    pass
 
 
     

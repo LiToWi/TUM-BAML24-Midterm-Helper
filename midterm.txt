@@ -1,0 +1,20 @@
+Coded with my own library accessible at: https://github.com/LiToWi/TUM-BAML24-Midterm-Helper
+
+##### Preparations:
+    Enter https://analytics-cup.dss.in.tum.de/
+    clicking the "found a new team" button
+    Pick a random name
+    download the training data set
+    Read the instructions carefully.
+
+##### Structure
+    Features + id + label
+    id & label are mutually exclusive
+    private data set: entry in id col
+    training data set: entry in label col
+
+##### Task
+    Train Model on training data set
+    Predict on private data set
+    Create submission data set (csv) with id + prediction only 
+    Export and upload submission data set (Max=10 submissions)
